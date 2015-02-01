@@ -20,6 +20,7 @@ themes:
 	git clone --recursive https://github.com/spf13/hugoThemes themes
 
 update:
+	rm -rf public
 	hugo --theme=$(THEME)
 
 serve: update
