@@ -3,8 +3,12 @@ THEME=hyde
 themes:
 	git clone --recursive https://github.com/spf13/hugoThemes themes
 
+update:
+	hugo --theme=$(THEME)
+
 serve:
-	hugo server --theme=$(THEME) --buildDrafts
+	# hugo server --theme=$(THEME) --buildDrafts
+	hugo server --theme=$(THEME)
 
 new:
 	hugo new $1
