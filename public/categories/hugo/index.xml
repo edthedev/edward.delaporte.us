@@ -11,10 +11,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/hello/</link>
+      <link>http://localhost:1313/posts/hello/</link>
       <pubDate>Fri, 31 Jan 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/hello/</guid>
+      <guid>http://localhost:1313/posts/hello/</guid>
       <description>
 
 &lt;h1 id=&#34;toc_0&#34;&gt;Hello World!&lt;/h1&gt;
