@@ -1,4 +1,20 @@
-THEME=hyde
+THEME=journal
+#herring-cove
+#html5
+#hugo-incorporated
+#hugo-uno
+#hugoscroll
+#hyde
+#hyde-x
+#journal
+#lanyon
+#liquorice
+#persona
+#purehugo
+#redlounge
+#simple-a
+#stou-dk-theme
+#tinyce
 
 themes:
 	git clone --recursive https://github.com/spf13/hugoThemes themes
@@ -6,8 +22,7 @@ themes:
 update:
 	hugo --theme=$(THEME)
 
-serve:
-	hugo
+serve: update
 	# hugo server --theme=$(THEME) --buildDrafts
 	hugo server --theme=$(THEME)
 

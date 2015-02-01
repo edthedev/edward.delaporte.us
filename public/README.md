@@ -1,2 +1,0 @@
-# edward.delaporte.us
-Website
