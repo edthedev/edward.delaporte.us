@@ -1,11 +1,27 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	{{ partial "meta.html" }}
 	<title>{{ .Title }}</title>
 	</meta>
 </head>
 <body>
+
+<div id=nav>
+{{ partial "nav.html" }}
+</div>
+
+<div id=post_head>
+	<h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+	<div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} </div>
+</div>
+
 <h1>{{ .Site.Title }}</h1>
 My nice website.
+<div id=main>
+{{ range first 3 .Data.Pages }}
+{{ .Render "summary" }}
+{{ end }}
+</div>
 </body>
 </html>
