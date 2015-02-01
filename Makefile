@@ -7,6 +7,7 @@ update:
 	hugo --theme=$(THEME)
 
 serve:
+	hugo
 	# hugo server --theme=$(THEME) --buildDrafts
 	hugo server --theme=$(THEME)
 
