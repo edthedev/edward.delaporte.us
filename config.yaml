@@ -1,0 +1,10 @@
+---
+baseurl: "http://edward.delaporte.us.github.io"
+title: "Edward.Delaporte.us"
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+  title: "Edward.Delaporte.us"
+  canonifyurls: true
